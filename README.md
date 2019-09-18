@@ -10,7 +10,7 @@ mvn install:install-file -Dfile={Path/to/your/ojdbc7.jar} -DgroupId=com.oracle -
 - Inscrire user/password à la database dans le application properties
 - Lancer avec 
 ```
-spring-boot:run
+mvn spring-boot:run
 ```
 
 Reference: https://medium.com/skillhive/spring-boot-spring-data-jpa-and-oracle-database-c4af89f727e0
